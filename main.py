@@ -1,6 +1,6 @@
-from transformers import AutoTokenizer
-import transformers
 import torch
+import transformers
+from transformers import AutoTokenizer
 
 model = "meta-llama/Llama-2-7b-hf"
 
