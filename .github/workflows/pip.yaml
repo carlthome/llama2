@@ -1,4 +1,9 @@
-on: push
+name: pip
+
+on:
+  pull_request:
+  push:
+    branches: [main]
 
 jobs:
   install:
