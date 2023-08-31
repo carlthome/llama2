@@ -5,14 +5,15 @@ A tiny example of running Llama 2 locally.
 ## Usage
 
 ```sh
-# Login to access gated model weights.
-huggingface-cli login
-
-# Create a virtual environment.
-direnv allow
+# Create a virtual environment and activate it.
+python -m venv .venv
+.venv/bin/activate
 
 # Install dependencies.
 pip install -r requirements.txt
+
+# Login to access gated model weights.
+huggingface-cli login
 
 # Run the example.
 python main.py
