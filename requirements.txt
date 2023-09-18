@@ -1,6 +1,11 @@
 # TODO https://github.com/pytorch/pytorch/issues/96610#issuecomment-1597314364
 --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 
-accelerate~=0.22.0
+accelerate~=0.23.0
+bitsandbytes~=0.41.0
+peft~=0.5.0
+scipy~=1.11.0
 torch~=2.2.0.dev0
 transformers~=4.33.0
+trl~=0.7.0
+wandb~=0.15.0
