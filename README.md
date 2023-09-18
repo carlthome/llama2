@@ -16,5 +16,5 @@ pip install -r requirements.txt
 huggingface-cli login
 
 # Run the example.
-python main.py
+python predict.py
 ```
